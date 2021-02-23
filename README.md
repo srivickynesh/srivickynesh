@@ -2,7 +2,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=srivickynesh" alt="srivickynesh" /></a> </p>
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=srivickynesh&show_icons=true&theme=dark&locale=en" alt="srivickynesh" /></p>
 
