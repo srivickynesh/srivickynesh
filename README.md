@@ -1,6 +1,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=srivickynesh&label=Profile%20views&color=c54048&style=flat" alt="srivickynesh" /> </p>
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=srivickynesh&show_icons=true&theme=dark&locale=en" alt="srivickynesh" /></p>
 
