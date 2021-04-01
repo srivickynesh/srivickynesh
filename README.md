@@ -1,7 +1,8 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=srivickynesh&label=Profile%20views&color=c54048&style=flat" alt="srivickynesh" /> </p>
 
 # score-streak
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=srivickynesh&theme=vision-friendly-dark&hide_border=true&fire=ff4b00&border=c9c8c8&background=ffffff&currStreakNum=ff3d3d&sideNums=ff606b&currStreakLabel=ff0000)](https://git.io/streak-stats)
+#<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=srivickynesh&show_icons=true&theme=dark&locale=en" alt="srivickynesh" /></p>
 
