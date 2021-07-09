@@ -11,4 +11,5 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=dark" alt="srivickynesh" /></p>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=srivickynesh&repo=github-readme-stats)](https://github.com/srivickynesh/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=srivickynesh&repo=kind )](https://github.com/srivickynesh/kind)
+
