@@ -3,7 +3,7 @@
 
 ## I'm Sri Vignesh!!
 
-- 🌱 I’m currently learning Kubernetes
+- 🌱 I’m currently learning Shell Scripting
 - 🥅 2021 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to playing chess and watching movies
 
