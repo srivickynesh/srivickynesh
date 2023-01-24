@@ -1,3 +1,8 @@
+<p align="left">
+    <a href="https://github.com/srivickynesh/srivickynesh"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=srivickynesh.srivickynesh" alt="visitors"/>
+</p>
+
 ## 📈 GitHub Activity Graph:
 
 <table>
