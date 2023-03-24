@@ -1,26 +1,38 @@
-import random
+import os
+import re
+import requests
+from github import Github
 
-# Define the list of quotes
-QUOTES = [
-    "The best way to predict your future is to create it. - Abraham Lincoln",
-    "In the end, we only regret the chances we didn't take. - Lewis Carroll",
-    "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
-    # Add more quotes here
-]
+def get_daily_quote():
+    response = requests.get("https://quotes.rest/qod?category=inspire")
+    if response.status_code == 200:
+        json_response = response.json()
+        quote = json_response['contents']['quotes'][0]['quote']
+        author = json_response['contents']['quotes'][0]['author']
+        return quote, author
+    else:
+        raise Exception("Failed to fetch quote")
 
-# Read the existing contents of the README file
-with open('README.md', 'r') as f:
-    contents = f.read()
+def update_readme(quote, author):
+    with open("README.md", "r") as file:
+        content = file.read()
 
-# Find the position of the first section and insert the quote after it
-pos = contents.find('\n##')
-if pos >= 0:
-    quote = random.choice(QUOTES)
-    new_contents = contents[:pos+2] + f'\n> {quote}\n\n' + contents[pos+2:]
-else:
-    quote = random.choice(QUOTES)
-    new_contents = f'\n> {quote}\n\n' + contents
+    new_content = re.sub(
+        r'(?<=<\/p>)(.*)(?=<\/p>)',
+        f'\n\n<center><p style="font-size: 1.5em; font-weight: bold; color: #1e90ff;">{quote}</p><p>- {author}</p></center>',
+        content,
+        flags=re.DOTALL
+    )
 
-# Write the updated contents back to the README file
-with open('README.md', 'w') as f:
-    f.write(new_contents)
+    if content != new_content:
+        with open("README.md", "w") as file:
+            file.write(new_content)
+        return True
+    return False
+
+if __name__ == "__main__":
+    quote, author = get_daily_quote()
+    if update_readme(quote, author):
+        token = ${{ secrets.GITHUB_TOKEN }}
+        repo = Github(token).get_repo("srivickynesh/srivickynesh")
+        repo.update_file("README.md", "Update daily quote", open("README.md", "r").read(), repo.get_contents("README.md").sha)
