@@ -6,6 +6,7 @@
 ## 📈 GitHub Activity Graph:
 
 <table>
+    <td rowspan="1" align="center"></td>
     <tr>
         <td align="center"><a href="https://github.com/srivickynesh#gh-light-mode-only"><img src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=default"/></a><a href="https://github.com/srivickynesh#gh-dark-mode-only"><img src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=tokyonight"/></a></td>
     </tr>
@@ -17,5 +18,5 @@
 
 <!--     <tr>
         <td align="center"><a href="https://github.com/srivickynesh#gh-light-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=srivickynesh&show_icons=true&theme=default&include_all_commits=true#gh-light-mode-only" alt="My GitHub Stats"/></a><a href="https://github.com/srivickynesh#gh-dark-mode-only"><img src="https://github-readme-stats.vercel.app/api?username=srivickynesh&show_icons=true&theme=tokyonight&include_all_commits=true#gh-dark-mode-only" alt="My GitHub Stats"/></a></td>
-        <td rowspan="2" align="center"></td>
+        
     </tr> -->
