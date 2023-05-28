@@ -6,8 +6,8 @@
 ## 📈 GitHub Activity Graph:
 
 <table>
+    <td rowspan="2" align="center"></td>
     <tr>
-        <td rowspan="1" align="center"></td>
         <td align="center"><a href="https://github.com/srivickynesh#gh-light-mode-only"><img src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=default"/></a><a href="https://github.com/srivickynesh#gh-dark-mode-only"><img src="https://github-readme-streak-stats.herokuapp.com/?user=srivickynesh&theme=tokyonight"/></a></td>
     </tr>
     <tr>
